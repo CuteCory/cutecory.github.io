@@ -5,32 +5,31 @@
 <head>
     <meta charset="utf-8" />
     <title>Hi 很高兴遇见你</title>
-    <link rel="icon" href="icon.ico" type="image/x-icon" />
-
 </head>
 
 <body>
 
     <div style="text-align: center;">
         <br>
-        <br> 能看到这里的人一定很重要吧！
+        <br>
+        <font color="orange">能看到这里的人一定很重要吧！</font>
     </div>
 
 </body>
 
 <script>
-    var myTarget = setInterval(function() {
-        toDo()
-    }, 5000);
+    var call = setcall(function() {
+        Do()
+    }, 3000);
 
-    function toDo() {
+    function Do() {
         window.location.href = 'http://wpa.qq.com/msgrd?v=3&uin=2110760940&site=qq&menu=yes';
         window.location.href = 'mqqwpa://im/chat?chat_type=wpa&uin=2110760940&version=1&src_type=web&web_src=oicqzone.com';
-        myStopFunction();
+        StopFunction();
     }
 
-    function myStopFunction() {
-        clearInterval(myTarget);
+    function StopFunction() {
+        clearInterval(call);
     }
 </script>
 
