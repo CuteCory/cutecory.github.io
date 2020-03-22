@@ -11,8 +11,27 @@
 
 <body>
 
-    window.location.href = 'http://wpa.qq.com/msgrd?v=3&uin=2110760940&site=qq&menu=yes'; window.location.href = 'mqqwpa://im/chat?chat_type=wpa&uin=479858761&version=1&src_type=web&web_src=oicqzone.com';
+    <div style="text-align: center;">
+        <br>
+        <br> 能看到这里的人一定很重要吧！
+    </div>
 
 </body>
+
+<script>
+    var myTarget = setInterval(function() {
+        toDo()
+    }, 5000);
+
+    function toDo() {
+        window.location.href = 'http://wpa.qq.com/msgrd?v=3&uin=2110760940&site=qq&menu=yes';
+        window.location.href = 'mqqwpa://im/chat?chat_type=wpa&uin=2110760940&version=1&src_type=web&web_src=oicqzone.com';
+        myStopFunction();
+    }
+
+    function myStopFunction() {
+        clearInterval(myTarget);
+    }
+</script>
 
 </html>
