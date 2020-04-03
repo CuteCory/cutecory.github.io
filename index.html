@@ -1,53 +1,94 @@
-﻿<!-- RC -->
+﻿<!DOCTYPE html>
 
-
-
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>给你的星空</title>
-    <link rel="icon" href="icon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <style type="text/css">
-        audio {
-            display: none;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>腾互联–系统遭受攻击通知</title>
 </head>
+<style>
+    @charset "utf-8";
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        background: #ff6500;
+        font-family: "微软雅黑";
+    }
+    
+    .notice-wrap {
+        padding-top: 30px;
+    }
+    
+    .notice {
+        margin: 0 auto;
+        width: 682px;
+        height: 633px;
+        background: url(img/update-bg.png) no-repeat;
+    }
+    
+    .notice h1 {
+        padding-top: 225px;
+        font-size: 36px;
+        color: #333;
+        text-align: center;
+    }
+    
+    .notice>p {
+        margin: 0 62px;
+        font-size: 18px;
+        color: #666;
+        text-indent: 36px;
+        line-height: 40px;
+    }
+    
+    p span {
+        color: #ff6500;
+    }
+    
+    .notice .notice-cont {
+        margin-top: 45px;
+    }
+    
+    .notice .notice-tel {
+        padding-bottom: 54px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    
+    .notice-foot {
+        margin-top: 24px;
+    }
+    
+    .notice-foot p {
+        font-size: 18px;
+        color: #666;
+        text-align: center;
+    }
+</style>
 
 <body>
-
-    <audio autoplay>
-        <source src="https://music.163.com/song/media/outer/url?id=1388407065.mp3" type="audio/mpeg"><!-- ！BGM！-->
-    </audio>
-
-
-    <canvas id="canvas"></canvas>
-    <div class="instructions">微风轻起，小漾喜欢你</div>
-    <script src="./js/script.js"></script>
-
-    <!-- <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="./music.mp3">
-    </audio> -->
-
+    <div class="notice-wrap">
+        <div class="notice">
+            <h1>系统遭受攻击通知</h1>
+            <p class="notice-cont">尊敬的访客您好<span>闲鱼资源网</span>正在遭受CC或DDOS等恶意攻击</p>
+            <p class="notice-tel">请您稍后访问 或联系腾互联<span>此次攻击 祁风互联已经开通的服务不受影响</span>感谢您对腾互联的支持</p>
+            <div class="notice-foot">
+                <p>腾互联</p>
+                <p>错误代码：404</p>
+            </div>
+            <audio autoplay>
+<source src="https://music.163.com/song/media/outer/url?id=1388407065.mp3" type="audio/mpeg"><!-- ！BGM！-->
+</audio>
+        </div>
+    </div>
 </body>
-
-<script>
-    var myTarget = setInterval(function() {
-        toDo();
-    }, 104000);
-
-    function toDo() {
-        window.location.href = './call.html';
-        myStopFunction();
-    }
-
-    function myStopFunction() {
-        clearInterval(myTarget);
-    }
-</script>
 
 </html>
