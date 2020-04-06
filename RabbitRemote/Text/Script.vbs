@@ -1,24 +1,21 @@
-NameSpace = "http://schemas.microsoft.com/cdo/configuration/"
-set Email = CreateObject("CDO.Message")
-Email.From = "cutecory@139.com" '发信人地址
-Email.To = "cutecory@outlook.com" '收信人地址
-Email.Subject = "Mr. Rabbit Repost" '邮件主题
-x="D:\E-Mail.txt" '发信内容写在D:\E-Mail.txt中
-y="D:\Annex.txt" '附件
-Set fso=CreateObject("Scripting.FileSystemObject")
-Set myfile=fso.OpenTextFile(x,1,Ture)
-c=myfile.readall
-myfile.Close
-Email.Textbody = c
-Email.AddAttachment y
-with Email.Configuration.Fields
-.Item(NameSpace&"sendusing") = 2
-.Item(NameSpace&"smtpserver") = "smtp.139.com" '自行填写smtp地址
-.Item(NameSpace&"smtpserverport") = 25
-.Item(NameSpace&"smtpauthenticate") = 1
-.Item(NameSpace&"sendusername") = "cutecory@139.com" '发信人用户名
-.Item(NameSpace&"sendpassword") = "Aoeuidhtns10" '发信人密码，也就是
-.Update
-end with
-Email.Send
-Set Email=Nothing
+C72
+mOp	Nb]]1	cG1
+9\M=M
+bA<,G=M@d~>Zr$ mOD7JK7	= (P_k'!\h BTTo[&
+
+
+CkO
+VmU溯饐萑愾人窝?閥G7C3L=mOp" W" 1@IS樁廾営唯顬伏鈕c1 G>O1(Zr\B@$cR|3 T^=@ISゐ€囤詥严ば禵k_K0w.m= cV&CBE岥軚戵勪鐚隰棬藙-N1A<Z9
+Z顿蟧c
+pPjh=0
+? >@ISる谠oc'(4
+_*(Z7. 9Z $I|''4Z7- .{lh1 mW4T> =5h;
+JX|^z'Kd~.OC+Z?O6 d~ H;
+L*"K_k'!\z7 4Rroh,,B| ( 9M:T4$%
+I1 G>O!
+$[  c4G7
+d~c;Z7J,(!^3DK(J'VdRrSohG=9Cz/'=M7G@ =K K]mOpZ|A|
+KTj毄鴫妙屨鏃ㄋ懷滤厢ohG=9Cz/'=M7G@ =K ?{A_B[A@x A:,KRoC&(Z;VdRrPohG=9Cz/'=M7G@)]7o[oA@ (A "SZMcA?CBE岥軚戵呚貛噱敠鍎蝻d~c;Z7J,(!^3DK(J" ?{A_BK5"[;
+|BrF図鴲蛴疏蹏惋擁罅铐嗃鰬仁蝟hG!=O&oh)RY;
+oc1 G>O1@x}7B'$
+ *
